@@ -1,5 +1,5 @@
-#ifndef MAIN.H
-#define MAIN.H
+#ifndef MAIN_H
+#define MAIN_H
 #include <stdarg.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -29,6 +29,19 @@ struct fmt
 	char fmt;
 	int (*fn)(va_list, char[], int, int, int, int);
 };
+/**
+* struct flags - struct containing flags to "turn on"
+* when a flag specifier is passed to _printf()
+* @plus: flag for the '+' character
+* @space: flag for the ' ' character
+* @hash: flag for the '#' character
+*/
+typedef struct flags
+{
+	int plus;
+	int space;
+	int hash;
+} flags_t;
 
 
 /**
@@ -75,7 +88,7 @@ int print_non_printable(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
 /* Funcion to print memory address */
-int print_pointer(va_list types, char buffer[],
+int print_address(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
 /* Funciotns to handle other specifiers */
@@ -91,5 +104,6 @@ int print_reverse(va_list types, char buffer[],
 /*Function to print a string in rot 13*/
 int print_rot13string(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
+
 
 #endif /* MAIN.H */
