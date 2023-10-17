@@ -15,7 +15,7 @@
 * Return: The number of characters printed, representing the pointer's value.
 */
 
-int print_pointer(va_list types, char buffer[],
+int print_address(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
 	char extra_c = 0, padd = ' ';
