@@ -1,16 +1,16 @@
 #include "main.h"
 #include <limits.h>
 /**
- * p_char - Print a character.
- * @types: List of arguments.
- * @buffer: Buffer array for printing.
- * @flags: Active formatting flags.
- * @width: Width specifier.
- * @precision: Precision specification.
- * @size: Size specifier.
- *
- * Return: Number of characters printed.
- */
+* p_char - Print a character.
+* @types: List of arguments.
+* @buffer: Buffer array for printing.
+* @flags: Active formatting flags.
+* @width: Width specifier.
+* @precision: Precision specification.
+* @size: Size specifier.
+*
+* Return: Number of characters printed.
+*/
 int p_char(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
@@ -20,16 +20,16 @@ int p_char(va_list types, char buffer[],
 }
 
 /**
- * p_string - Print a string.
- * @types: List of arguments.
- * @buffer: Buffer array for printing.
- * @flags: Active formatting flags.
- * @width: Width specifier.
- * @precision: Precision specification.
- * @size: Size specifier.
- *
- * Return: Number of characters printed.
- */
+* p_string - Print a string.
+* @types: List of arguments.
+* @buffer: Buffer array for printing.
+* @flags: Active formatting flags.
+* @width: Width specifier.
+* @precision: Precision specification.
+* @size: Size specifier.
+*
+* Return: Number of characters printed.
+*/
 int p_string(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
@@ -76,16 +76,16 @@ int p_string(va_list types, char buffer[],
 }
 
 /**
- * p_percent - Print a percent sign.
- * @types: List of arguments.
- * @buffer: Buffer array for printing.
- * @flags: Active formatting flags.
- * @width: Width specifier.
- * @precision: Precision specification.
- * @size: Size specifier.
- *
- * Return: Number of characters printed.
- */
+* p_percent - Print a percent sign.
+* @types: List of arguments.
+* @buffer: Buffer array for printing.
+* @flags: Active formatting flags.
+* @width: Width specifier.
+* @precision: Precision specification.
+* @size: Size specifier.
+*
+* Return: Number of characters printed.
+*/
 int p_percent(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
@@ -99,16 +99,16 @@ int p_percent(va_list types, char buffer[],
 }
 
 /**
- * p_int - Print an integer.
- * @types: List of arguments.
- * @buffer: Buffer array for printing.
- * @flags: Active formatting flags.
- * @width: Width specifier.
- * @precision: Precision specification.
- * @size: Size specifier.
- *
- * Return: Number of characters printed.
- */
+* p_int - Print an integer.
+* @types: List of arguments.
+* @buffer: Buffer array for printing.
+* @flags: Active formatting flags.
+* @width: Width specifier.
+* @precision: Precision specification.
+* @size: Size specifier.
+*
+* Return: Number of characters printed.
+*/
 int p_int(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
@@ -143,16 +143,16 @@ int p_int(va_list types, char buffer[],
 }
 
 /**
- * p_binary - Print an unsigned number in binary.
- * @types: List of arguments.
- * @buffer: Buffer array for printing.
- * @flags: Active formatting flags.
- * @width: Width specifier.
- * @precision: Precision specification.
- * @size: Size specifier.
- *
- * Return: Number of characters printed.
- */
+* p_binary - Print an unsigned number in binary.
+* @types: List of arguments.
+* @buffer: Buffer array for printing.
+* @flags: Active formatting flags.
+* @width: Width specifier.
+* @precision: Precision specification.
+* @size: Size specifier.
+*
+* Return: Number of characters printed.
+*/
 int p_binary(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {

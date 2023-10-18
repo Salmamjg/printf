@@ -1,17 +1,17 @@
 #include "main.h"
 /**
- * print_with_format - Print an argument based on its type and format.
- * @fmt: The formatted string in which to print the arguments.
- * @list: List of arguments to be printed.
- * @ind: An index.
- * @buffer: An array for handling printing.
- * @flags: Flags indicating special formatting.
- * @width: The width for formatting.
- * @precision: The precision specification.
- * @size: The size specifier.
- *
- * Return: 1 if successful, 2 if there was an issue.
- */
+* print_with_format - Print an argument based on its type and format.
+* @fmt: The formatted string in which to print the arguments.
+* @list: List of arguments to be printed.
+* @ind: An index.
+* @buffer: An array for handling printing.
+* @flags: Flags indicating special formatting.
+* @width: The width for formatting.
+* @precision: The precision specification.
+* @size: The size specifier.
+*
+* Return: 1 if successful, 2 if there was an issue.
+*/
 int print_with_format(const char *fmt, int *ind, va_list list, char buffer[],
 	int flags, int width, int precision, int size)
 {

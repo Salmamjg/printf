@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * p_unsigned - Print an unsigned number.
- * @types: List of arguments.
- * @buffer: Buffer array for printing.
- * @flags: Active formatting flags.
- * @width: Width specifier.
- * @precision: Precision specification.
- * @size: Size specifier.
- *
- * Return: Number of characters printed.
- */
+* p_unsigned - Print an unsigned number.
+* @types: List of arguments.
+* @buffer: Buffer array for printing.
+* @flags: Active formatting flags.
+* @width: Width specifier.
+* @precision: Precision specification.
+* @size: Size specifier.
+*
+* Return: Number of characters printed.
+*/
 int p_unsigned(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
@@ -36,16 +36,16 @@ int p_unsigned(va_list types, char buffer[],
 }
 
 /**
- * p_octal - Print an unsigned number in octal notation.
- * @types: List of arguments.
- * @buffer: Buffer array for printing.
- * @flags: Active formatting flags.
- * @width: Width specifier.
- * @precision: Precision specification.
- * @size: Size specifier.
- *
- * Return: Number of characters printed.
- */
+* p_octal - Print an unsigned number in octal notation.
+* @types: List of arguments.
+* @buffer: Buffer array for printing.
+* @flags: Active formatting flags.
+* @width: Width specifier.
+* @precision: Precision specification.
+* @size: Size specifier.
+*
+* Return: Number of characters printed.
+*/
 int p_octal(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
@@ -78,16 +78,16 @@ int p_octal(va_list types, char buffer[],
 }
 
 /**
- * p_hexadecimal - Print an unsigned number in hexadecimal notation.
- * @types: List of arguments.
- * @buffer: Buffer array for printing.
- * @flags: Active formatting flags.
- * @width: Width specifier.
- * @precision: Precision specification.
- * @size: Size specifier.
- *
- * Return: Number of characters printed.
- */
+* p_hexadecimal - Print an unsigned number in hexadecimal notation.
+* @types: List of arguments.
+* @buffer: Buffer array for printing.
+* @flags: Active formatting flags.
+* @width: Width specifier.
+* @precision: Precision specification.
+* @size: Size specifier.
+*
+* Return: Number of characters printed.
+*/
 int p_hexadecimal(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
@@ -96,17 +96,17 @@ int p_hexadecimal(va_list types, char buffer[],
 }
 
 /**
- * p_hexa_upper - Print an unsigned number in
- * uppercase hexadecimal notation.
- * @types: List of arguments.
- * @buffer: Buffer array for printing.
- * @flags: Active formatting flags.
- * @width: Width specifier.
- * @precision: Precision specification.
- * @size: Size specifier.
- *
- * Return: Number of characters printed.
- */
+* p_hexa_upper - Print an unsigned number in
+* uppercase hexadecimal notation.
+* @types: List of arguments.
+* @buffer: Buffer array for printing.
+* @flags: Active formatting flags.
+* @width: Width specifier.
+* @precision: Precision specification.
+* @size: Size specifier.
+*
+* Return: Number of characters printed.
+*/
 int p_hexa_upper(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
@@ -115,18 +115,18 @@ int p_hexa_upper(va_list types, char buffer[],
 }
 
 /**
- * p_hexa - Print a hexadecimal number in lowercase or uppercase.
- * @types: List of arguments.
- * @map_to: Array of values to map the number to.
- * @buffer: Buffer array for printing.
- * @flags: Active formatting flags.
- * @flag_ch: Active formatting flags.
- * @width: Width specifier.
- * @precision: Precision specification.
- * @size: Size specifier.
- *
- * Return: Number of characters printed.
- */
+* p_hexa - Print a hexadecimal number in lowercase or uppercase.
+* @types: List of arguments.
+* @map_to: Array of values to map the number to.
+* @buffer: Buffer array for printing.
+* @flags: Active formatting flags.
+* @flag_ch: Active formatting flags.
+* @width: Width specifier.
+* @precision: Precision specification.
+* @size: Size specifier.
+*
+* Return: Number of characters printed.
+*/
 int p_hexa(va_list types, char map_to[], char buffer[],
 	int flags, char flag_ch, int width, int precision, int size)
 {

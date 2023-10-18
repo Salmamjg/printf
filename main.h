@@ -15,11 +15,11 @@
 #define S_SHORT 1
 
 /**
- * struct fmt - Format specification structure.
- *
- * @fmt: The format specifier.
- * @fn: The associated function pointer.
- */
+* struct fmt - Format specification structure.
+*
+* @fmt: The format specifier.
+* @fn: The associated function pointer.
+*/
 struct fmt
 {
 	char fmt;
@@ -27,11 +27,11 @@ struct fmt
 };
 
 /**
- * typedef struct fmt fmt_t - Format specification type.
- *
- * @fmt: The format specifier.
- * @fn: The associated function pointer.
- */
+* typedef struct fmt fmt_t - Format specification type.
+*
+* @fmt: The format specifier.
+* @fn: The associated function pointer.
+*/
 typedef struct fmt fmt_t;
 
 int _printf(const char *format, ...);

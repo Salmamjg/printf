@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * g_width - Determine the required
- * width for formatting and printing.
- * @format: The format string for printing the arguments.
- * @i: Index of the argument in the list.
- * @list: List of arguments to be printed.
- *
- * Return: The calculated printing width.
- */
+* g_width - Determine the required
+* width for formatting and printing.
+* @format: The format string for printing the arguments.
+* @i: Index of the argument in the list.
+* @list: List of arguments to be printed.
+*
+* Return: The calculated printing width.
+*/
 int g_width(const char *format, int *i, va_list list)
 {
 	int iCurr;

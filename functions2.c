@@ -2,16 +2,16 @@
 #include <stdint.h>
 
 /**
- * p_pointer - Print the value of a pointer variable.
- * @types: List of arguments.
- * @buffer: Buffer array for printing.
- * @flags: Active formatting flags.
- * @width: Width specifier.
- * @precision: Precision specification.
- * @size: Size specifier.
- *
- * Return: Number of characters printed.
- */
+* p_pointer - Print the value of a pointer variable.
+* @types: List of arguments.
+* @buffer: Buffer array for printing.
+* @flags: Active formatting flags.
+* @width: Width specifier.
+* @precision: Precision specification.
+* @size: Size specifier.
+*
+* Return: Number of characters printed.
+*/
 int p_pointer(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
@@ -52,17 +52,17 @@ int p_pointer(va_list types, char buffer[],
 }
 
 /**
- * p_non_printable - Print ASCII codes in hexadecimal of
- * non-printable characters.
- * @types: List of arguments.
- * @buffer: Buffer array for printing.
- * @flags: Active formatting flags.
- * @width: Width specifier.
- * @precision: Precision specification.
- * @size: Size specifier.
- *
- * Return: Number of characters printed.
- */
+* p_non_printable - Print ASCII codes in hexadecimal of
+* non-printable characters.
+* @types: List of arguments.
+* @buffer: Buffer array for printing.
+* @flags: Active formatting flags.
+* @width: Width specifier.
+* @precision: Precision specification.
+* @size: Size specifier.
+*
+* Return: Number of characters printed.
+*/
 int p_non_printable(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
@@ -93,16 +93,16 @@ int p_non_printable(va_list types, char buffer[],
 }
 
 /**
- * p_reverse - Print a reversed string.
- * @types: List of arguments.
- * @buffer: Buffer array for printing.
- * @flags: Active formatting flags.
- * @width: Width specifier.
- * @precision: Precision specification.
- * @size: Size specifier.
- *
- * Return: Number of characters printed.
- */
+* p_reverse - Print a reversed string.
+* @types: List of arguments.
+* @buffer: Buffer array for printing.
+* @flags: Active formatting flags.
+* @width: Width specifier.
+* @precision: Precision specification.
+* @size: Size specifier.
+*
+* Return: Number of characters printed.
+*/
 int p_reverse(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
@@ -136,16 +136,16 @@ int p_reverse(va_list types, char buffer[],
 }
 
 /**
- * p_rot13string - Print a string in ROT13 encoding.
- * @types: List of arguments.
- * @buffer: Buffer array for printing.
- * @flags: Active formatting flags.
- * @width: Width specifier.
- * @precision: Precision specification.
- * @size: Size specifier.
- *
- * Return: Number of characters printed.
- */
+* p_rot13string - Print a string in ROT13 encoding.
+* @types: List of arguments.
+* @buffer: Buffer array for printing.
+* @flags: Active formatting flags.
+* @width: Width specifier.
+* @precision: Precision specification.
+* @size: Size specifier.
+*
+* Return: Number of characters printed.
+*/
 int p_rot13string(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {

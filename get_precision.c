@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * g_precision - Determine the precision for formatting a string.
- * @format: The format string for the argument list.
- * @i: The index of the current argument.
- * @list: A list of arguments.
- *
- * Return: The calculated precision value.
- */
+* g_precision - Determine the precision for formatting a string.
+* @format: The format string for the argument list.
+* @i: The index of the current argument.
+* @list: A list of arguments.
+*
+* Return: The calculated precision value.
+*/
 int g_precision(const char *format, int *i, va_list list)
 {
 	int iCurr = *i + 1;
